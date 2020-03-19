@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <base href="/">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible refresh" content="ie=edge">
+    <title> TVF </title>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" type="text/css" href="{% static 'vendors/bootstrap/dist/css/bootstrap.min.css' %}">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" type="text/css" href="{% static 'vendors/font-awesome/css/font-awesome.min.css' %}">
+    <!-- NProgress -->
+    <link rel="stylesheet" type="text/css" href="{% static 'vendors/nprogress/nprogress.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'vendors/iCheck/skins/flat/green.css' %}">
+
+    <link rel="stylesheet" type="text/css"
+    href="{% static 'vendors/bootstrap-progressbar/css/bootstrap-progressbar-3.3.4.min.css' %}">
+    <!-- JQVMap -->
+    <link rel="stylesheet" type="text/css" href="{% static 'vendors/jqvmap/dist/jqvmap.min.css' %}">
+    <!-- bootstrap-daterangepicker -->
+    <link rel="stylesheet" type="text/css" href="{% static 'vendors/bootstrap-daterangepicker/daterangepicker.css' %}">
+
+
+    <link rel="stylesheet" href="{% static 'vendors/bootstrap-wysihtml5/bootstrap3-wysihtml5.min.css' %}">
+    <!-- Calendar-->
+    <link rel="stylesheet" href="{% static 'vendors/angular-bootstrap-calendar/angular-bootstrap-calendar.min.css' %}">
+    <!-- Datatable -->
+    <link rel="stylesheet" href="{% static 'vendors/plugins/datatables-bs/css/dataTables.bootstrap.min.css' %}">
+
+    <!-- Custom Theme Style -->
+    <link rel="stylesheet" type="text/css" href="{% static 'build/css/custom.min.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'module/module.css' %}">
+</head>
+
+<body ng-app="app" class="nav-md">
+<div class="container body">
+    <div class="container body">
+        <div class="main_container">
+            <div class="col-md-3 left_col">
+                <div class="left_col scroll-view">
+                    <div class="navbar nav_title" style="border: 0;">
+                        <a href="#/" class="site_title"><i class="fa fa-paw"></i> <span>TVF</span></a>
+                    </div>
+
+                    <div class="clearfix"></div>
+
+                    <br/>
+
+                    <!-- sidebar menu -->
+                    <div id="sidebar-menu" class="main_menu_side hidden-print main_menu">
+                        <div class="menu_section">
+                            <h3>Mpandray</h3>
+                            <ul class="nav side-menu">
+                                <li><a><i class="fa fa-money"></i> Adidy <span
+                                        class="fa fa-chevron-down"></span></a>
+                                    <ul class="nav child_menu">
+                                        <li><a href="box/#/kitapo/vola">Kitapo iombonana <span class=""></span></a>
+                                            <ul class="nav child_menu">
+                                                <li class="sub_menu"><a href="box/#/kitapo/vola">handoha vola</a>
+                                                </li>
+                                                <li><a href="box/#/kitapo/vita">Adidy vita</a>
+                                                </li>
+                                                <li><a href="#level2_2">Level Two</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li><a>Finoana sy asa<span class="fa fa-chevron-down"></span></a>
+                                            <ul class="nav child_menu">
+                                                <li class="sub_menu"><a href="level2.html">Level Two</a>
+                                                </li>
+                                                <li><a href="#level2_1">Level Two</a>
+                                                </li>
+                                                <li><a href="#level2_2">Level Two</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="#level1_2">Level One</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+
+                    </div>
+                    <!-- /sidebar menu -->
+
+                    <!-- /menu footer buttons -->
+                    <div class="sidebar-footer hidden-small">
+                        <a data-toggle="tooltip" data-placement="top" title="Settings">
+                            <span class="glyphicon glyphicon-cog" aria-hidden="true"></span>
+                        </a>
+                        <a data-toggle="tooltip" data-placement="top" title="FullScreen">
+                            <span class="glyphicon glyphicon-fullscreen" aria-hidden="true"></span>
+                        </a>
+                        <a data-toggle="tooltip" data-placement="top" title="Lock">
+                            <span class="glyphicon glyphicon-eye-close" aria-hidden="true"></span>
+                        </a>
+                        <a data-toggle="tooltip" data-placement="top" title="Logout" href="login.html">
+                            <span class="glyphicon glyphicon-off" aria-hidden="true"></span>
+                        </a>
+                    </div>
+                    <!-- /menu footer buttons -->
+                </div>
+            </div>
+
+            <!-- top navigation -->
+            <div class="top_nav">
+                <div class="nav_menu">
+                    <div class="nav toggle">
+                        <a id="menu_toggle"><i class="fa fa-bars"></i></a>
+                    </div>
+                    <nav class="nav navbar-nav">
+                        <ul class=" navbar-right">
+                            <li class="nav-item dropdown open" style="padding-left: 15px;">
+                                <a href="javascript:;" class="user-profile dropdown-toggle" aria-haspopup="true"
+                                   id="navbarDropdown" data-toggle="dropdown" aria-expanded="false">
+                                    <img src="media/{{ user.mpandray.sary_mpandray }}" alt="">
+                                </a>
+                                <div class="dropdown-menu dropdown-usermenu pull-right"
+                                     aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item" href="javascript:;"> Profile</a>
+                                    <a class="dropdown-item" href="javascript:;">
+                                        <span class="badge bg-red pull-right">50%</span>
+                                        <span>Settings</span>
+                                    </a>
+                                    <a class="dropdown-item" href="javascript:;">Help</a>
+                                    <a class="dropdown-item" href="login.html"><i class="fa fa-sign-out pull-right"></i>
+                                        Log Out</a>
+                                </div>
+                            </li>
+
+                            <li role="presentation" class="nav-item dropdown open">
+                                <a href="javascript:;" class="dropdown-toggle info-number" id="navbarDropdown1"
+                                   data-toggle="dropdown" aria-expanded="false">
+                                    <i class="fa fa-envelope-o"></i>
+                                    <span class="badge bg-green">6</span>
+                                </a>
+                                <ul class="dropdown-menu list-unstyled msg_list" role="menu"
+                                    aria-labelledby="navbarDropdown1">
+                                    <li class="nav-item">
+                                        <a class="dropdown-item">
+                                            <span class="image"><img src="images/img.jpg" alt="Profile Image"/></span>
+                                            <span>
+                            <span>John Smith</span>
+                            <span class="time">3 mins ago</span>
+                          </span>
+                                            <span class="message">
+                            Film festivals used to be do-or-die moments for movie makers. They were where...
+                          </span>
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="dropdown-item">
+                                            <span class="image"><img src="images/img.jpg" alt="Profile Image"/></span>
+                                            <span>
+                            <span>John Smith</span>
+                            <span class="time">3 mins ago</span>
+                          </span>
+                                            <span class="message">
+                            Film festivals used to be do-or-die moments for movie makers. They were where...
+                          </span>
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="dropdown-item">
+                                            <span class="image"><img src="images/img.jpg" alt="Profile Image"/></span>
+                                            <span>
+                            <span>John Smith</span>
+                            <span class="time">3 mins ago</span>
+                          </span>
+                                            <span class="message">
+                            Film festivals used to be do-or-die moments for movie makers. They were where...
+                          </span>
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="dropdown-item">
+                                            <span class="image"><img src="images/img.jpg" alt="Profile Image"/></span>
+                                            <span>
+                            <span>John Smith</span>
+                            <span class="time">3 mins ago</span>
+                          </span>
+                                            <span class="message">
+                            Film festivals used to be do-or-die moments for movie makers. They were where...
+                          </span>
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <div class="text-center">
+                                            <a class="dropdown-item">
+                                                <strong>See All Alerts</strong>
+                                                <i class="fa fa-angle-right"></i>
+                                            </a>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+            <!-- /top navigation -->
+
+            <!-- page content -->
+
+            <div class="right_col" role="main">
+                <div class="w-auto p-3 content-wrapper">
+                    <div ng-view>
+
+                    </div>
+                    <!-- /.content -->
+                </div>
+            </div>
+            <!-- /.content-wrapper -->
+
+            <!-- footer content -->
+            <footer>
+                <div class="pull-right">
+                    Copyright <a href="https://artland.pythonanywhere.com">Artland Studio</a>
+                </div>
+                <div class="clearfix"></div>
+            </footer>
+            <!-- /footer content -->
+        </div>
+    </div>
+</div>
+
+
+<!-- Moment -->
+<script src="{% static 'vendors/momentMin/moment.min.js' %}"></script>
+{#<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.10.6/locale/fr.js"></script>#}
+
+<!-- Angular Init -->
+<script src="{% static 'vendors/angular/angular.js' %}"></script>
+<script src="{% static 'vendors/angularResource/angular-resource.js' %}"></script>
+<script src="{% static 'vendors/AngularRoute/angular-route.js' %}"></script>
+<script src="{% static 'vendors/angular-jwt/angular-jwt.min.js' %}"></script>
+<!-- jQuery -->
+<script src="{% static 'module/jquery/js/jquery.js' %}"></script>
+
+
+<!-- Bootstrap -->
+<script src="{% static 'vendors/bootstrap-3/js/bootstrap.min.js' %}"></script>
+<script src="{% static 'vendors/bootstrap/dist/js/bootstrap.bundle.min.js' %}"></script>
+<script src="{% static 'vendors/angular-bootstrap-calendar/angular-bootstrap-calendar.min.js' %}"></script>
+<script src="{% static 'vendors/angular-bootstrap-calendar/angular-bootstrap-calendar-tpls.min.js' %}"></script>
+
+
+<!-- DataTable  -->
+<script src="{% static 'vendors/plugins/datatables/js/jquery.dataTables.min.js' %}"></script>
+<script src="{% static 'vendors/plugins/datatables-bs/js/dataTables.bootstrap.min.js' %}"></script>
+
+<!-- FastClick -->
+{#<script src="{% static 'modules/ui-bootstrap/ui-bootstrap-tpls-0.11.0.js' %}"></script>#}
+
+<!-- Notification  -->
+<script src="{% static 'vendors/pnotify/pnotify.custom.min.js' %}"></script>
+
+<script src="{% static 'vendors/bower_components/select2/dist/js/select2.full.min.js' %}"></script>
+<!-- Slimscroll -->
+<script src="{% static 'modules/bower_components/jquery-slimscroll/jquery.slimscroll.min.js' %}"></script>
+
+<script src="{% static 'vendors/fastclick/lib/fastclick.js' %}"></script>
+<!-- NProgress -->
+<script src="{% static 'vendors/nprogress/nprogress.js' %}"></script>
+
+<!-- gauge.js -->
+<script src="{% static 'vendors/gauge.js/dist/gauge.min.js' %}"></script>
+<!-- bootstrap-progressbar -->
+<script src="{% static 'vendors/bootstrap-progressbar/bootstrap-progressbar.min.js' %}"></script>
+<!-- iCheck -->
+<script src="{% static 'vendors/iCheck/icheck.min.js' %}"></script>
+<!-- Skycons -->
+<script src="{% static 'vendors/skycons/skycons.js' %}"></script>
+<!-- Flot -->
+<script src="{% static 'vendors/Flot/jquery.flot.js' %}"></script>
+<script src="{% static 'vendors/Flot/jquery.flot.pie.js' %}"></script>
+<script src="{% static 'vendors/Flot/jquery.flot.time.js' %}"></script>
+<script src="{% static 'vendors/Flot/jquery.flot.stack.js' %}"></script>
+<script src="{% static 'vendors/Flot/jquery.flot.resize.js' %}"></script>
+
+<!-- Flot plugins -->
+<script src="{% static 'vendors/flot.orderbars/js/jquery.flot.orderBars.js' %}"></script>
+<script src="{% static 'vendors/flot-spline/js/jquery.flot.spline.min.js' %}"></script>
+<script src="{% static 'vendors/flot.curvedlines/curvedLines.js' %}"></script>
+
+<!-- DateJS -->
+<script src="{% static 'vendors/DateJS/build/date.js' %}"></script>
+
+<!-- bootstrap-daterangepicker -->
+<script src="{% static 'vendors/cdnjs/ui-bootstrap-tpls.js' %}"></script>
+<script src="{% static 'vendors/bootstrap-daterangepicker/daterangepicker.js' %}"></script>
+
+
+<!-- Custom Theme Scripts -->
+<script src="{% static 'vendors/dist/js/adminlte.min.js' %}"></script>
+<script src="{% static 'build/js/custom.min.js' %}"></script>
+<script src="{% static 'module/module.js' %}"></script>
+
+
+<script src="{% static 'vendors/validator/multifield.js' %}"></script>
+<script src="{% static 'vendors/validator/validator.js' %}"></script>
+<script src="{% static 'vendors/ocLazyLoad/ocLazyLoad.min.js' %}"></script>
+
+<script>
+    $('#dateChange').change(function () {
+        alert('The option with value ' + $(this).val() + ' and text ' + $(this).text() + ' was selected.');
+    });
+
+
+    $(document).ready(function () {
+        $('#test').DataTable({
+            "scrollY": "50vh",
+            "scrollCollapse": true,
+            "scrollX": true
+        });
+        $('.dataTables_length').addClass('bs-select');
+    });
+</script>
+</body>
+</html>

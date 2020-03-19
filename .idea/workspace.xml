@@ -1,0 +1,1057 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9c1079c8-dd47-4246-b507-8c329c4c804b" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <expand>
+      <path>
+        <item name="" type="eadb38e5:DatabaseStructure$Root" />
+        <item name="tvf@localhost" type="e3449647:DbNodeDescriptor" />
+      </path>
+      <path>
+        <item name="" type="eadb38e5:DatabaseStructure$Root" />
+        <item name="tvf@localhost" type="e3449647:DbNodeDescriptor" />
+        <item name="tvf" type="e3449647:DbNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/etvf/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-378">
+              <caret line="28" column="24" lean-forward="false" selection-start-line="28" selection-start-column="24" selection-end-line="28" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="serializers.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/etvfApi/serializers.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/etvfApi/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="322">
+              <caret line="64" column="32" lean-forward="true" selection-start-line="64" selection-start-column="32" selection-end-line="64" selection-end-column="32" />
+              <folding>
+                <element signature="e#0#33#0" expanded="true" />
+                <element signature="e#1105#1356#0" expanded="false" />
+                <element signature="e#1169#1203#0" expanded="false" />
+                <element signature="e#1254#1356#0" expanded="false" />
+                <element signature="e#2865#2959#0" expanded="false" />
+                <element signature="e#3103#3393#0" expanded="false" />
+                <element signature="e#3167#3201#0" expanded="false" />
+                <element signature="e#3252#3393#0" expanded="false" />
+                <element signature="e#3433#4766#0" expanded="false" />
+                <element signature="e#4876#4911#0" expanded="false" />
+                <element signature="e#5220#5254#0" expanded="false" />
+                <element signature="e#5305#5442#0" expanded="false" />
+                <element signature="e#5545#5668#0" expanded="false" />
+                <element signature="e#5723#5852#0" expanded="false" />
+                <element signature="e#5904#6220#0" expanded="false" />
+                <element signature="e#6001#6123#0" expanded="false" />
+                <element signature="e#6278#6401#0" expanded="false" />
+                <element signature="e#6456#6802#0" expanded="false" />
+                <element signature="e#6611#6705#0" expanded="false" />
+                <element signature="e#7185#8530#0" expanded="false" />
+                <element signature="e#7249#7372#0" expanded="false" />
+                <element signature="e#7427#7564#0" expanded="false" />
+                <element signature="e#7616#7934#0" expanded="false" />
+                <element signature="e#7715#7837#0" expanded="false" />
+                <element signature="e#7992#8121#0" expanded="false" />
+                <element signature="e#8176#8530#0" expanded="false" />
+                <element signature="e#8339#8433#0" expanded="false" />
+                <element signature="e#8582#8912#0" expanded="false" />
+                <element signature="e#8646#8680#0" expanded="false" />
+                <element signature="e#8742#8912#0" expanded="false" />
+                <element signature="e#9020#9083#0" expanded="false" />
+                <element signature="e#9134#9263#0" expanded="false" />
+                <element signature="e#9643#10545#0" expanded="false" />
+                <element signature="e#9707#9801#0" expanded="false" />
+                <element signature="e#9856#9977#0" expanded="false" />
+                <element signature="e#10035#10152#0" expanded="false" />
+                <element signature="e#10592#12115#0" expanded="false" />
+                <element signature="e#12162#12709#0" expanded="false" />
+                <element signature="e#12757#13075#0" expanded="false" />
+                <element signature="e#12821#12855#0" expanded="false" />
+                <element signature="e#12917#13075#0" expanded="false" />
+                <element signature="e#13180#13215#0" expanded="false" />
+                <element signature="e#14733#14827#0" expanded="false" />
+                <element signature="e#15057#15171#0" expanded="false" />
+                <element signature="e#15226#15560#0" expanded="false" />
+                <element signature="e#15369#15463#0" expanded="false" />
+                <element signature="e#15671#15705#0" expanded="false" />
+                <element signature="e#15767#15921#0" expanded="false" />
+                <element signature="e#16025#16060#0" expanded="false" />
+                <element signature="e#18903#19218#0" expanded="false" />
+                <element signature="e#18967#19030#0" expanded="false" />
+                <element signature="e#19081#19218#0" expanded="false" />
+                <element signature="e#19257#20553#0" expanded="false" />
+                <element signature="e#19321#19444#0" expanded="false" />
+                <element signature="e#19499#19628#0" expanded="false" />
+                <element signature="e#19680#19973#0" expanded="false" />
+                <element signature="e#19782#19876#0" expanded="false" />
+                <element signature="e#20031#20154#0" expanded="false" />
+                <element signature="e#20209#20553#0" expanded="false" />
+                <element signature="e#20362#20456#0" expanded="false" />
+                <element signature="e#20600#21283#0" expanded="false" />
+                <element signature="e#20664#20725#0" expanded="false" />
+                <element signature="e#20776#21283#0" expanded="false" />
+                <element signature="e#20907#21180#0" expanded="false" />
+                <element signature="e#20998#21180#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/etvfApi/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="393">
+              <caret line="61" column="44" lean-forward="false" selection-start-line="61" selection-start-column="23" selection-end-line="61" selection-end-column="44" />
+              <folding>
+                <element signature="e#0#32#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="module.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/static/module/module.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="432">
+              <caret line="753" column="37" lean-forward="true" selection-start-line="753" selection-start-column="37" selection-end-line="753" selection-end-column="37" />
+              <folding>
+                <element signature="e#195#219#0" expanded="false" />
+                <element signature="e#1081#1470#0" expanded="false" />
+                <element signature="e#1521#2347#0" expanded="false" />
+                <element signature="e#2686#3510#0" expanded="false" />
+                <element signature="e#3574#3998#0" expanded="false" />
+                <element signature="e#4046#4869#0" expanded="false" />
+                <element signature="e#4916#5738#0" expanded="false" />
+                <element signature="e#5796#6215#0" expanded="false" />
+                <element signature="e#6266#6667#0" expanded="false" />
+                <element signature="e#6725#7109#0" expanded="false" />
+                <element signature="e#7166#7535#0" expanded="false" />
+                <element signature="e#7592#7987#0" expanded="false" />
+                <element signature="e#8047#8467#0" expanded="false" />
+                <element signature="e#8519#8921#0" expanded="false" />
+                <element signature="e#8980#9365#0" expanded="false" />
+                <element signature="e#9423#9793#0" expanded="false" />
+                <element signature="e#9851#10247#0" expanded="false" />
+                <element signature="e#10297#11122#0" expanded="false" />
+                <element signature="e#11180#11611#0" expanded="false" />
+                <element signature="e#11407#11481#0" expanded="false" />
+                <element signature="e#11658#12032#0" expanded="false" />
+                <element signature="e#12132#12342#0" expanded="false" />
+                <element signature="n#!!block;n#transformImageRequest#0" expanded="false" />
+                <element signature="e#14755#15119#0" expanded="false" />
+                <element signature="e#14796#15061#0" expanded="false" />
+                <element signature="e#14833#14890#0" expanded="false" />
+                <element signature="e#14896#15051#0" expanded="false" />
+                <element signature="e#14960#15035#0" expanded="false" />
+                <element signature="e#15067#15113#0" expanded="false" />
+                <element signature="e#15225#15482#0" expanded="false" />
+                <element signature="e#15316#15476#0" expanded="false" />
+                <element signature="e#15361#15465#0" expanded="false" />
+                <element signature="e#15526#15866#0" expanded="false" />
+                <element signature="e#15651#15832#0" expanded="false" />
+                <element signature="e#15771#15822#0" expanded="false" />
+                <element signature="n#!!block;n#monthDiff#0" expanded="false" />
+                <element signature="n#!!block;n#getDateFin#0" expanded="false" />
+                <element signature="n#!!block;n#setDataTable#0" expanded="false" />
+                <element signature="e#16318#17827#0" expanded="false" />
+                <element signature="e#17114#17313#0" expanded="false" />
+                <element signature="e#17340#17554#0" expanded="false" />
+                <element signature="e#17582#17813#0" expanded="false" />
+                <element signature="e#17612#17795#0" expanded="false" />
+                <element signature="n#!!block;n#increment_alphanumeric_str#0" expanded="false" />
+                <element signature="e#19112#19317#0" expanded="false" />
+                <element signature="e#19493#21185#0" expanded="false" />
+                <element signature="e#22902#23355#0" expanded="false" />
+                <element signature="e#23401#23644#0" expanded="false" />
+                <element signature="e#23689#23928#0" expanded="false" />
+                <element signature="e#23998#24254#0" expanded="false" />
+                <element signature="e#24527#26285#0" expanded="false" />
+                <element signature="e#24567#25068#0" expanded="false" />
+                <element signature="e#25409#25680#0" expanded="false" />
+                <element signature="e#25776#25990#0" expanded="false" />
+                <element signature="e#26085#26273#0" expanded="false" />
+                <element signature="e#26537#29788#0" expanded="false" />
+                <element signature="e#26577#27078#0" expanded="false" />
+                <element signature="e#28533#28691#0" expanded="false" />
+                <element signature="e#29999#33402#0" expanded="false" />
+                <element signature="e#30039#30540#0" expanded="false" />
+                <element signature="e#30921#32076#0" expanded="false" />
+                <element signature="e#33536#34037#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="adidyAnio.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/static/html/adidyAnio.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="57" column="59" lean-forward="false" selection-start-line="57" selection-start-column="59" selection-end-line="57" selection-end-column="59" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="3" lean-forward="false" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/etvf/templates/base/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="138">
+              <caret line="68" column="53" lean-forward="false" selection-start-line="68" selection-start-column="53" selection-end-line="68" selection-end-column="53" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="etvf_sondage" pinned="false" current-in-tab="false">
+        <entry file="das://table:/5d19d69e/add6f29e-0a48-4af7-8a10-7662bf5bf0ed/tvf.etvf_sondage">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sondage.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/static/html/sondage.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="322">
+              <caret line="31" column="34" lean-forward="true" selection-start-line="31" selection-start-column="34" selection-end-line="31" selection-end-column="34" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>Current</find>
+      <find>Kitapo</find>
+      <find>script</find>
+      <find>notify</find>
+      <find>success session</find>
+      <find>error session</find>
+      <find>kitapo</find>
+      <find>LOGIE</find>
+      <find>kristianaCtrl</find>
+      <find>adidyVita</find>
+      <find>copy</find>
+      <find>mpan</find>
+      <find>fastcli</find>
+      <find>smart</find>
+      <find>bundle</find>
+      <find>nprogress.css</find>
+      <find>artla</find>
+      <find>nprogress</find>
+      <find>col-md-3</find>
+      <find>w-auto p-3</find>
+      <find>localhost</find>
+      <find>adminl</find>
+      <find>admin</find>
+      <find>192.168.88.10</find>
+      <find>sonda</find>
+      <find>#</find>
+      <find>user</find>
+      <find>kody_tosaafi</find>
+      <find>show</find>
+      <find>save</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>adidy</replace>
+      <replace>mpandray</replace>
+      <replace>krisitana</replace>
+      <replace>Krisitana</replace>
+      <replace>ristiana</replace>
+      <replace>Kristiana</replace>
+      <replace>kristiana</replace>
+      <replace>192.168.88.10</replace>
+      <replace>localhost</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/etvfApi/permissions.py" />
+        <option value="$PROJECT_DIR$/static/html/save.html" />
+        <option value="E:/Doc/TVF/PROJECT LIBRA/gentelella-master/production/profile.html" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/add6f29e-0a48-4af7-8a10-7662bf5bf0ed/console_1.sql" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/add6f29e-0a48-4af7-8a10-7662bf5bf0ed/console.sql" />
+        <option value="$PROJECT_DIR$/etvf/templates/base/save.html" />
+        <option value="$PROJECT_DIR$/static/html/test.html" />
+        <option value="$PROJECT_DIR$/../gesrec/static/modules/gesrec/js/project.js" />
+        <option value="$PROJECT_DIR$/static/html/acceuil.html" />
+        <option value="$PROJECT_DIR$/static/html/save/save.py" />
+        <option value="$PROJECT_DIR$/tvf/urls.py" />
+        <option value="$PROJECT_DIR$/static/html/mpandrayDetail.html" />
+        <option value="$PROJECT_DIR$/static/html/kristianaDetail.html" />
+        <option value="$PROJECT_DIR$/static/html/kitapoAnio.html" />
+        <option value="$PROJECT_DIR$/static/html/lisitraKristiana.html" />
+        <option value="$PROJECT_DIR$/static/html/AdidyVita.html" />
+        <option value="$PROJECT_DIR$/static/html/mombaMpandray.html" />
+        <option value="$PROJECT_DIR$/etvf/templates/connexion/login.html" />
+        <option value="E:/Doc/TVF/PROJECT LIBRA/gentelella-master/production/form_wizards.html" />
+        <option value="$PROJECT_DIR$/tvf/settings.py" />
+        <option value="$PROJECT_DIR$/etvf/templates/base/sondage.html" />
+        <option value="$PROJECT_DIR$/etvf/templates/base/index.html" />
+        <option value="$PROJECT_DIR$/etvf/views.py" />
+        <option value="$PROJECT_DIR$/etvf/urls.py" />
+        <option value="$PROJECT_DIR$/static/html/lisitraMpandray.html" />
+        <option value="$PROJECT_DIR$/static/module/module.css" />
+        <option value="$PROJECT_DIR$/etvf/admin.py" />
+        <option value="$PROJECT_DIR$/etvf/models.py" />
+        <option value="$PROJECT_DIR$/etvfApi/serializers.py" />
+        <option value="$PROJECT_DIR$/etvfApi/urls.py" />
+        <option value="$PROJECT_DIR$/etvfApi/views.py" />
+        <option value="$PROJECT_DIR$/static/html/sondage.html" />
+        <option value="$PROJECT_DIR$/static/module/module.js" />
+        <option value="$PROJECT_DIR$/static/html/handohaAdidy.html" />
+        <option value="$PROJECT_DIR$/static/html/handohaKitapo.html" />
+        <option value="$PROJECT_DIR$/static/html/adidyAnio.html" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="676" />
+    <option name="width" value="697" />
+    <option name="height" value="735" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="ptvf" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ptvf" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Project\ptvf\tvfvenv\Lib\site-packages" />
+      <recent name="E:\Project\ptvf\static" />
+      <recent name="E:\Project\ptvf\static\vendors" />
+      <recent name="E:\Project\ptvf\static\html" />
+      <recent name="E:\Project\ptvf\static\module" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Project\ptvf\static\vendors" />
+      <recent name="E:\Project\ptvf\static\build" />
+      <recent name="E:\Project\ptvf\etvf" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Django server.ptvf">
+    <configuration name="ptvf" type="Python.DjangoServer" factoryName="Django server">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="ptvf" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9c1079c8-dd47-4246-b507-8c329c4c804b" name="Default" comment="" />
+      <created>1583377992669</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1583377992669</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2322239" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19288956" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26841244" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.6759411" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" x="92" y="92" width="1182" height="544" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" x="92" y="92" width="1182" height="544" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26841244" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3617021" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22541603" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19288956" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/static/module/module.js</url>
+          <line>854</line>
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="2" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/tvfvenv/Lib/site-packages/xlrd-1.2.0.dist-info/WHEEL">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tvfvenv/Lib/site-packages/report_builder_scheduled/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tvfvenv/Lib/site-packages/odf/dc.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tvfvenv/Lib/site-packages/jdcal-1.4.dist-info/WHEEL">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tvfvenv/Lib/site-packages/unicodecsv/py2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tvfvenv/Lib/site-packages/crispy_forms/tests/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tvfvenv/Lib/site-packages/jdcal.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tvfvenv/Lib/site-packages/google/protobuf/util/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tvf/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../gesrec/static/modules/gesrec/js/project.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="18" column="29" lean-forward="false" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/5d19d69e/add6f29e-0a48-4af7-8a10-7662bf5bf0ed/tvf.etvf_mpandray">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/5d19d69e/add6f29e-0a48-4af7-8a10-7662bf5bf0ed/tvf.etvf_mpikambana">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/5d19d69e/add6f29e-0a48-4af7-8a10-7662bf5bf0ed/tvf.etvf_budget">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/5d19d69e/add6f29e-0a48-4af7-8a10-7662bf5bf0ed/tvf.etvf_tossaafi">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/html/calendar.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/html/acceuil.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="32" column="18" lean-forward="true" selection-start-line="32" selection-start-column="18" selection-end-line="32" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/5d19d69e/add6f29e-0a48-4af7-8a10-7662bf5bf0ed/tvf.etvf_laminasa">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/media/photos/user/profil_RDRgXRN.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/media/photos/user/profil.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/media/photos/user/20191123_194458.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="das://table:/5d19d69e/add6f29e-0a48-4af7-8a10-7662bf5bf0ed/tvf.etvf_kristiana">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/5d19d69e/add6f29e-0a48-4af7-8a10-7662bf5bf0ed/tvf.etvf_toerana">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/etvfApi/permissions.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="402">
+          <caret line="39" column="0" lean-forward="true" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/5d19d69e/add6f29e-0a48-4af7-8a10-7662bf5bf0ed/tvf.auth_user">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/html/mombaMpandray.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="37" lean-forward="false" selection-start-line="0" selection-start-column="20" selection-end-line="0" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/5d19d69e/add6f29e-0a48-4af7-8a10-7662bf5bf0ed/tvf.etvf_adidy">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/5d19d69e/add6f29e-0a48-4af7-8a10-7662bf5bf0ed/tvf.etvf_kitapo">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/html/kristianaDetail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2125">
+          <caret line="125" column="30" lean-forward="false" selection-start-line="125" selection-start-column="30" selection-end-line="125" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/etvf/templates/connexion/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="850">
+          <caret line="50" column="15" lean-forward="false" selection-start-line="50" selection-start-column="15" selection-end-line="50" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tvf/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="26" column="51" lean-forward="false" selection-start-line="26" selection-start-column="51" selection-end-line="26" selection-end-column="64" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/Doc/TVF/PROJECT LIBRA/gentelella-master/production/profile.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="365" column="28" lean-forward="true" selection-start-line="365" selection-start-column="28" selection-end-line="365" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/vendors/angular/angular.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="313">
+          <caret line="27060" column="99" lean-forward="false" selection-start-line="27060" selection-start-column="99" selection-end-line="27060" selection-end-column="99" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/etvf/templates/base/sondage.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="120" column="43" lean-forward="false" selection-start-line="120" selection-start-column="39" selection-end-line="120" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/Doc/TVF/PROJECT LIBRA/gentelella-master/production/form_wizards.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="424">
+          <caret line="282" column="40" lean-forward="false" selection-start-line="266" selection-start-column="12" selection-end-line="282" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/etvf/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="492">
+          <caret line="53" column="11" lean-forward="false" selection-start-line="53" selection-start-column="4" selection-end-line="53" selection-end-column="11" />
+          <folding>
+            <element signature="e#0#32#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/etvf/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="57" column="15" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="138" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/etvf/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="63" lean-forward="false" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="63" />
+          <folding>
+            <element signature="e#0#20#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/html/lisitraMpandray.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="27" lean-forward="false" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
+          <folding>
+            <element signature="n#style#0;n#table#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#th#0;n#tr#0;n#thead#0;n#table#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#th#1;n#tr#0;n#thead#0;n#table#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#th#2;n#tr#0;n#thead#0;n#table#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#th#0;n#tr#0;n#thead#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#th#1;n#tr#0;n#thead#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#th#2;n#tr#0;n#thead#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/module/module.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/etvfApi/serializers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/etvfApi/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="393">
+          <caret line="61" column="44" lean-forward="false" selection-start-line="61" selection-start-column="23" selection-end-line="61" selection-end-column="44" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/etvfApi/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="64" column="32" lean-forward="true" selection-start-line="64" selection-start-column="32" selection-end-line="64" selection-end-column="32" />
+          <folding>
+            <element signature="e#0#33#0" expanded="true" />
+            <element signature="e#1105#1356#0" expanded="false" />
+            <element signature="e#1169#1203#0" expanded="false" />
+            <element signature="e#1254#1356#0" expanded="false" />
+            <element signature="e#2865#2959#0" expanded="false" />
+            <element signature="e#3103#3393#0" expanded="false" />
+            <element signature="e#3167#3201#0" expanded="false" />
+            <element signature="e#3252#3393#0" expanded="false" />
+            <element signature="e#3433#4766#0" expanded="false" />
+            <element signature="e#4876#4911#0" expanded="false" />
+            <element signature="e#5220#5254#0" expanded="false" />
+            <element signature="e#5305#5442#0" expanded="false" />
+            <element signature="e#5545#5668#0" expanded="false" />
+            <element signature="e#5723#5852#0" expanded="false" />
+            <element signature="e#5904#6220#0" expanded="false" />
+            <element signature="e#6001#6123#0" expanded="false" />
+            <element signature="e#6278#6401#0" expanded="false" />
+            <element signature="e#6456#6802#0" expanded="false" />
+            <element signature="e#6611#6705#0" expanded="false" />
+            <element signature="e#7185#8530#0" expanded="false" />
+            <element signature="e#7249#7372#0" expanded="false" />
+            <element signature="e#7427#7564#0" expanded="false" />
+            <element signature="e#7616#7934#0" expanded="false" />
+            <element signature="e#7715#7837#0" expanded="false" />
+            <element signature="e#7992#8121#0" expanded="false" />
+            <element signature="e#8176#8530#0" expanded="false" />
+            <element signature="e#8339#8433#0" expanded="false" />
+            <element signature="e#8582#8912#0" expanded="false" />
+            <element signature="e#8646#8680#0" expanded="false" />
+            <element signature="e#8742#8912#0" expanded="false" />
+            <element signature="e#9020#9083#0" expanded="false" />
+            <element signature="e#9134#9263#0" expanded="false" />
+            <element signature="e#9643#10545#0" expanded="false" />
+            <element signature="e#9707#9801#0" expanded="false" />
+            <element signature="e#9856#9977#0" expanded="false" />
+            <element signature="e#10035#10152#0" expanded="false" />
+            <element signature="e#10592#12115#0" expanded="false" />
+            <element signature="e#12162#12709#0" expanded="false" />
+            <element signature="e#12757#13075#0" expanded="false" />
+            <element signature="e#12821#12855#0" expanded="false" />
+            <element signature="e#12917#13075#0" expanded="false" />
+            <element signature="e#13180#13215#0" expanded="false" />
+            <element signature="e#14733#14827#0" expanded="false" />
+            <element signature="e#15057#15171#0" expanded="false" />
+            <element signature="e#15226#15560#0" expanded="false" />
+            <element signature="e#15369#15463#0" expanded="false" />
+            <element signature="e#15671#15705#0" expanded="false" />
+            <element signature="e#15767#15921#0" expanded="false" />
+            <element signature="e#16025#16060#0" expanded="false" />
+            <element signature="e#18903#19218#0" expanded="false" />
+            <element signature="e#18967#19030#0" expanded="false" />
+            <element signature="e#19081#19218#0" expanded="false" />
+            <element signature="e#19257#20553#0" expanded="false" />
+            <element signature="e#19321#19444#0" expanded="false" />
+            <element signature="e#19499#19628#0" expanded="false" />
+            <element signature="e#19680#19973#0" expanded="false" />
+            <element signature="e#19782#19876#0" expanded="false" />
+            <element signature="e#20031#20154#0" expanded="false" />
+            <element signature="e#20209#20553#0" expanded="false" />
+            <element signature="e#20362#20456#0" expanded="false" />
+            <element signature="e#20600#21283#0" expanded="false" />
+            <element signature="e#20664#20725#0" expanded="false" />
+            <element signature="e#20776#21283#0" expanded="false" />
+            <element signature="e#20907#21180#0" expanded="false" />
+            <element signature="e#20998#21180#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/5d19d69e/add6f29e-0a48-4af7-8a10-7662bf5bf0ed/tvf.etvf_sondage">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/etvf/templates/base/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="68" column="53" lean-forward="false" selection-start-line="68" selection-start-column="53" selection-end-line="68" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/html/sondage.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="31" column="34" lean-forward="true" selection-start-line="31" selection-start-column="34" selection-end-line="31" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/html/handohaAdidy.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="702">
+          <caret line="126" column="51" lean-forward="true" selection-start-line="126" selection-start-column="51" selection-end-line="126" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/html/handohaKitapo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="356">
+          <caret line="113" column="60" lean-forward="false" selection-start-line="113" selection-start-column="60" selection-end-line="113" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/module/module.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="753" column="37" lean-forward="true" selection-start-line="753" selection-start-column="37" selection-end-line="753" selection-end-column="37" />
+          <folding>
+            <element signature="e#195#219#0" expanded="false" />
+            <element signature="e#1081#1470#0" expanded="false" />
+            <element signature="e#1521#2347#0" expanded="false" />
+            <element signature="e#2686#3510#0" expanded="false" />
+            <element signature="e#3574#3998#0" expanded="false" />
+            <element signature="e#4046#4869#0" expanded="false" />
+            <element signature="e#4916#5738#0" expanded="false" />
+            <element signature="e#5796#6215#0" expanded="false" />
+            <element signature="e#6266#6667#0" expanded="false" />
+            <element signature="e#6725#7109#0" expanded="false" />
+            <element signature="e#7166#7535#0" expanded="false" />
+            <element signature="e#7592#7987#0" expanded="false" />
+            <element signature="e#8047#8467#0" expanded="false" />
+            <element signature="e#8519#8921#0" expanded="false" />
+            <element signature="e#8980#9365#0" expanded="false" />
+            <element signature="e#9423#9793#0" expanded="false" />
+            <element signature="e#9851#10247#0" expanded="false" />
+            <element signature="e#10297#11122#0" expanded="false" />
+            <element signature="e#11180#11611#0" expanded="false" />
+            <element signature="e#11407#11481#0" expanded="false" />
+            <element signature="e#11658#12032#0" expanded="false" />
+            <element signature="e#12132#12342#0" expanded="false" />
+            <element signature="n#!!block;n#transformImageRequest#0" expanded="false" />
+            <element signature="e#14755#15119#0" expanded="false" />
+            <element signature="e#14796#15061#0" expanded="false" />
+            <element signature="e#14833#14890#0" expanded="false" />
+            <element signature="e#14896#15051#0" expanded="false" />
+            <element signature="e#14960#15035#0" expanded="false" />
+            <element signature="e#15067#15113#0" expanded="false" />
+            <element signature="e#15225#15482#0" expanded="false" />
+            <element signature="e#15316#15476#0" expanded="false" />
+            <element signature="e#15361#15465#0" expanded="false" />
+            <element signature="e#15526#15866#0" expanded="false" />
+            <element signature="e#15651#15832#0" expanded="false" />
+            <element signature="e#15771#15822#0" expanded="false" />
+            <element signature="n#!!block;n#monthDiff#0" expanded="false" />
+            <element signature="n#!!block;n#getDateFin#0" expanded="false" />
+            <element signature="n#!!block;n#setDataTable#0" expanded="false" />
+            <element signature="e#16318#17827#0" expanded="false" />
+            <element signature="e#17114#17313#0" expanded="false" />
+            <element signature="e#17340#17554#0" expanded="false" />
+            <element signature="e#17582#17813#0" expanded="false" />
+            <element signature="e#17612#17795#0" expanded="false" />
+            <element signature="n#!!block;n#increment_alphanumeric_str#0" expanded="false" />
+            <element signature="e#19112#19317#0" expanded="false" />
+            <element signature="e#19493#21185#0" expanded="false" />
+            <element signature="e#22902#23355#0" expanded="false" />
+            <element signature="e#23401#23644#0" expanded="false" />
+            <element signature="e#23689#23928#0" expanded="false" />
+            <element signature="e#23998#24254#0" expanded="false" />
+            <element signature="e#24527#26285#0" expanded="false" />
+            <element signature="e#24567#25068#0" expanded="false" />
+            <element signature="e#25409#25680#0" expanded="false" />
+            <element signature="e#25776#25990#0" expanded="false" />
+            <element signature="e#26085#26273#0" expanded="false" />
+            <element signature="e#26537#29788#0" expanded="false" />
+            <element signature="e#26577#27078#0" expanded="false" />
+            <element signature="e#28533#28691#0" expanded="false" />
+            <element signature="e#29999#33402#0" expanded="false" />
+            <element signature="e#30039#30540#0" expanded="false" />
+            <element signature="e#30921#32076#0" expanded="false" />
+            <element signature="e#33536#34037#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/etvf/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-378">
+          <caret line="28" column="24" lean-forward="false" selection-start-line="28" selection-start-column="24" selection-end-line="28" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/html/adidyAnio.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="57" column="59" lean-forward="false" selection-start-line="57" selection-start-column="59" selection-end-line="57" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="3" lean-forward="false" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
